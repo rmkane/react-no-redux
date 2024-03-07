@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { themeChange } from "theme-change";
+import ThemeChooser from "./ThemeChooser";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,15 +15,7 @@ function App() {
         <h1 className="text-secondary mb-4 text-4xl font-bold">
           App Name Here
         </h1>
-        <select
-          data-choose-theme
-          className="absolute right-4 top-1/2 h-10 -translate-y-1/2 rounded-md border px-3 focus:outline-none"
-        >
-          <option value="">Default</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-          <option value="dracula">Dracula</option>
-        </select>
+        <ThemeChooser themes={["light", "dark", "dracula"]} />
       </header>
       <main className="flex-grow">
         <button
