@@ -11,10 +11,12 @@ function App() {
   return (
     <>
       <header className="bg-neutral sticky top-0 flex flex-row justify-center p-4">
-        <h1 className="text-primary mb-4 text-4xl font-bold">App Name Here</h1>
+        <h1 className="text-secondary mb-4 text-4xl font-bold">
+          App Name Here
+        </h1>
         <select
           data-choose-theme
-          className="absolute right-4 top-4 h-10 rounded-full border px-3 focus:outline-none"
+          className="absolute right-4 top-1/2 h-10 -translate-y-1/2 rounded-md border px-3 focus:outline-none"
         >
           <option value="">Default</option>
           <option value="light">Light</option>
