@@ -1,4 +1,4 @@
-import type { Contact } from "./types";
+import type { Contact } from "../types";
 
 import localforage from "localforage";
 import { matchSorter } from "match-sorter";

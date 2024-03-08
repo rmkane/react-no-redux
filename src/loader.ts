@@ -1,4 +1,4 @@
-import { getContacts } from "./contacts";
+import { getContacts } from "./services/contacts";
 
 async function loader() {
   const contacts = await getContacts();

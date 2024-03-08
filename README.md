@@ -4,6 +4,7 @@
 
 - Vite + React + TypeScript: <https://vitejs.dev/guide/>
 - Tailwind: <https://tailwindcss.com/docs/guides/vite>
+- Tailwind prose: <https://github.com/tailwindlabs/tailwindcss-typography>
 - Tailwind + daisyUI: <https://daisyui.com/docs/install/>
 - daisyUI Themes: <https://daisyui.com/docs/themes/>
 - theme-change: <https://github.com/saadeghi/theme-change>

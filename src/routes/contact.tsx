@@ -22,8 +22,8 @@ export default function Contact() {
         <img key={contact.avatar} src={contact.avatar} />
       </div>
 
-      <div>
-        <h1>
+      <article className="prose">
+        <h1 className="flex gap-4">
           {contact.first || contact.last ? (
             <>
               {contact.first} {contact.last}
@@ -44,7 +44,7 @@ export default function Contact() {
 
         {contact.notes && <p>{contact.notes}</p>}
 
-        <div>
+        <div className="flex gap-2">
           <Form action="edit">
             <button className="btn btn-success" type="submit">
               Edit
@@ -64,7 +64,7 @@ export default function Contact() {
             </button>
           </Form>
         </div>
-      </div>
+      </article>
     </div>
   );
 }
