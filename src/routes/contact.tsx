@@ -46,7 +46,9 @@ export default function Contact() {
 
         <div>
           <Form action="edit">
-            <button type="submit">Edit</button>
+            <button className="btn btn-success" type="submit">
+              Edit
+            </button>
           </Form>
           <Form
             method="post"
@@ -57,7 +59,9 @@ export default function Contact() {
               }
             }}
           >
-            <button type="submit">Delete</button>
+            <button className="btn btn-error" type="submit">
+              Delete
+            </button>
           </Form>
         </div>
       </div>

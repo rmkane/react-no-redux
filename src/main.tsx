@@ -3,8 +3,9 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import "./index.css";
-import Root, { loader as rootLoader } from "./routes/root";
+import { loader as rootLoader } from "./loader";
 import ErrorPage from "./error-page";
+import Root from "./routes/root";
 import Contact from "./routes/contact";
 
 const router = createBrowserRouter([
